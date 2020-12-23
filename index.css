@@ -485,7 +485,7 @@ html:not([data-scroll="0"]) header {
   }
 
   .l_header {
-    width: 80%;
+    width: 100%;
     margin-left: 10%;
   }
 
