@@ -22,7 +22,7 @@ html:not([data-scroll="0"]) header {
   position: sticky;
   background: #ffffff;
   align-items: center;
-  width: 102%;
+  width: 100%;
   height: 120px;
   margin-left: -1%;
 }
@@ -362,6 +362,8 @@ html:not([data-scroll="0"]) header {
 
 .c_small__text1 {
   color: #7d7987;
+  line-height: 30px;
+  font-size: 18px;
   margin-top: 7%;
 }
 
@@ -377,7 +379,6 @@ html:not([data-scroll="0"]) header {
 /* section5 */
 
 /* section6 */
-
 .l_section__sec6 {
   max-width: 1400px;
   margin: auto auto;
@@ -443,6 +444,7 @@ html:not([data-scroll="0"]) header {
   margin: auto auto;
   text-align: center;
 }
+
 .c_section__card___sec6 {
   display: flex;
   flex-wrap: wrap;
@@ -486,7 +488,6 @@ html:not([data-scroll="0"]) header {
 
   .l_header {
     width: 100%;
-    margin-left: 10%;
   }
 
   .c_sidenav {
@@ -566,7 +567,7 @@ html:not([data-scroll="0"]) header {
   }
 
   .c_img img {
-    margin-left: -10%;
+    margin-left: -20%;
   }
 
   .c_bigele {
@@ -655,12 +656,16 @@ html:not([data-scroll="0"]) header {
 }
 
 @media screen and (max-width: 768px) {
+  .l_sec {
+    margin-left: 25%;
+  }
+
   .c_sidenav {
     height: 100%;
   }
 
   .l_section__sec2 {
-    margin-left: 15%;
+    margin-left: 20%;
   }
 
   .c_learn__a___sec2 {
@@ -672,16 +677,12 @@ html:not([data-scroll="0"]) header {
   }
 
   .c_learnmore__button {
-    margin-top: 330%;
-    margin-left: 40%;
-  }
-
-  .l_sect4 {
-    margin-top: 20%;
+    margin-top: 35%;
+    margin-left: 15%;
   }
 
   .l_sec {
-    margin-top: 10%;
+    margin-top: 5%;
   }
 
   .c_img {
@@ -693,9 +694,25 @@ html:not([data-scroll="0"]) header {
     width: 200%;
   }
 
+  .l_sect3 {
+    flex-direction: column-reverse;
+    margin-left: 10%;
+  }
+
+  .c_text3 {
+    margin-left: 14.5%;
+  }
+
+  .l_sect4 {
+    flex-direction: column;
+    margin-top: 20%;
+    margin-left: 1%;
+  }
+
   .c_img4 {
-    width: 100%;
+    width: 70%;
     margin-top: 10%;
+    margin-left: ;
   }
 
   .c_bigele,
@@ -707,8 +724,12 @@ html:not([data-scroll="0"]) header {
   }
 
   .l_section__sec6 {
-    margin-left: 5%;
+    margin-left: 12%;
     background-image: none;
+  }
+
+  .c_hr__sec6 {
+    margin-left: 42%;
   }
 
   .c_learn__a___sec6 {
@@ -717,6 +738,13 @@ html:not([data-scroll="0"]) header {
 }
 
 @media screen and (max-width: 414px) {
+  .l_header {
+    width: 100%;
+  }
+  .l_sec {
+    margin-left: -10%;
+  }
+
   .c_sidenav {
     height: 100%;
     padding-top: 20px;
@@ -733,6 +761,7 @@ html:not([data-scroll="0"]) header {
 
   .l_sec .c_text .c_top p {
     font-size: 30px;
+    margin-left: 7%;
   }
 
   .l_sec .c_text .c_under {
@@ -741,7 +770,10 @@ html:not([data-scroll="0"]) header {
   }
 
   .l_sec .c_text .c_under p {
-    font-size: 15px;
+    margin-top: 0%;
+    margin-left: 11%;
+    width: 80%;
+    font-size: 12px;
   }
 
   .c_consult {
@@ -750,7 +782,7 @@ html:not([data-scroll="0"]) header {
     font-size: 12px;
     margin-top: 5%;
     height: 40px;
-    margin-left: 30%;
+    margin-left: 60%;
   }
 
   .c_img {
@@ -760,18 +792,22 @@ html:not([data-scroll="0"]) header {
   }
 
   .c_img img {
-    width: 350%;
-    margin-left: -180%;
+    width: 200%;
+    margin-left: -120%;
   }
 
   .l_section__sec2 {
     width: 100%;
-    margin-left: 40%;
+    margin-left: 0%;
     margin-top: -30%;
   }
 
-  .c_vector {
-    margin-left: -65%;
+  .c_section__card___sec2 {
+    width: 90%;
+  }
+
+  .c_learn__a___sec2 {
+    margin-left: 22%;
   }
 
   .c_box__sec2 {
@@ -797,8 +833,8 @@ html:not([data-scroll="0"]) header {
   }
 
   .c_small__line {
-    margin-top: -15%;
-    margin-left: 55%;
+    margin-top: -20%;
+    margin-left: 65%;
   }
 
   .c_small__text {
@@ -808,24 +844,28 @@ html:not([data-scroll="0"]) header {
 
   .l_sect3 {
     margin-top: 30%;
-    margin-left: 50%;
+    margin-left: -34%;
   }
 
   .c_img3 img {
     width: 60%;
     height: auto;
-    margin-top: -2%;
-    margin-left: 25%;
+    margin-top: -20%;
+    margin-left: 39%;
+  }
+
+  .c_text3 {
+    width: 100%;
   }
 
   .c_learnmore__button {
     margin-top: 130%;
-    margin-left: 35%;
+    margin-left: 50%;
   }
 
   .l_sect4 {
-    margin-left: 20%;
-    margin-top: -5%;
+    margin-left: 0%;
+    margin-top: -40%;
   }
 
   .c_download__title {
@@ -837,14 +877,15 @@ html:not([data-scroll="0"]) header {
   }
 
   .c_img4 {
-    width: 150%;
+    width: 90%;
     height: auto;
-    margin-top: 30%;
-    margin-left: 90%;
+    margin-top: 10%;
+    margin-left: 0%;
   }
+
   .l_section__sec6 {
     width: 100%;
-    margin-left: 35%;
+    margin-left: 0%;
   }
 
   .c_learn__a___sec6 {
