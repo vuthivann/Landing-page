@@ -391,6 +391,140 @@ html:not([data-scroll="0"]) header {
 }
 
 /* section5 */
+.c_center {
+  text-align: center;
+}
+.l_container__slide {
+  max-width: 1300px;
+  height: 60vh;
+  margin: auto auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.c_slide {
+  width: 100%;
+  height: 50vh;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 30px;
+  position: absolute;
+  transition: all 0.25s ease-in-out;
+  color: white;
+}
+.c_slide h2 {
+  padding: 70px 0px 10px 0;
+  font-size: 2em;
+}
+.c_slide__item {
+  width: 100%;
+  height: 30vh;
+  padding: 10px 70px;
+  display: flex;
+}
+.c_line__white {
+  width: 100px;
+  height: 4px;
+  border: none;
+  margin: auto auto;
+  background-color: white;
+}
+.c_slide__item div {
+  width: 100%;
+  height: 100%;
+}
+.c_slide__item p {
+  padding-top: 15%;
+  font-size: 1.2em;
+}
+.c_profile {
+  display: flex;
+
+  justify-content: center;
+}
+.c_profile div {
+  width: auto;
+  height: auto;
+  margin: auto 10px;
+}
+.c_profile div h4 {
+  font-size: 1.5em;
+}
+.c_btn__slider {
+  position: absolute;
+  display: flex;
+  left: 0;
+  bottom: 0%;
+  width: 100%;
+  justify-content: center;
+}
+.c_btn__slider div span {
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.c_dot {
+  display: flex;
+  list-style: none;
+}
+.c_dot li {
+  height: 5px;
+  width: 5px;
+  margin: 7px 6px;
+  background-color: #67c3fb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.c_dot li.c_selected {
+  height: 7px;
+  width: 7px;
+  margin: 7px 6px;
+  background-color: #67c3fb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@media (max-width: 53.75em) {
+  .l_container__slide {
+    height: 70vh;
+  }
+  .c_slide {
+    height: 60vh;
+  }
+  .c_slide__item,
+  .c_profile {
+    display: block;
+  }
+  .c_slide__item div {
+    width: auto;
+    height: auto;
+  }
+  .c_slide__item p {
+    font-size: 1em;
+    padding-top: 5%;
+  }
+  .c_profile div h4 {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 31.25em) {
+  .l_container__slide {
+    height: 80vh;
+  }
+  .c_slide {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 20.8em) {
+  /* respomsive slider section */
+  .l_container__slide {
+    height: 90vh;
+  }
+  .c_slide {
+    height: 80vh;
+  }
+}
 
 /* section6 */
 .l_section__sec6 {
