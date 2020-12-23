@@ -363,6 +363,8 @@ html:not([data-scroll="0"]) header {
 .c_small__text1 {
   color: #7d7987;
   line-height: 30px;
+  width: 420px;
+  height: 120px;
   font-size: 18px;
   margin-top: 7%;
 }
